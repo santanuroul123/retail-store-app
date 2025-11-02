@@ -1,4 +1,4 @@
-# Branching Strategy & GitOps Workflow
+# Branching Strategy & GitOps Workflow for this project
 
 This document explains the advanced branching strategy and GitOps workflow implemented in this retail store sample application.
 
