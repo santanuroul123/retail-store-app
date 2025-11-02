@@ -1,4 +1,4 @@
-# AWS Containers Retail Sample - Cart Service
+# AWS Containers Retail Sample app - Cart Service
 
 <!-- GitOps Test: Multi-service deploy test - Cart -->
 
