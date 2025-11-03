@@ -184,7 +184,7 @@ aws configure
 ### Step 2. Clone the Repository:
 
 ```sh
-git clone https://github.com/LondheShubham153/retail-store-sample-app.git
+git clone https://github.com/santanuroul123/retail-store-app.git
 ```
 
 > [!IMPORTANT]
