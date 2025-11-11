@@ -32,7 +32,7 @@ ingress:
     - retail-store.iemafzalhassan.in
   tls:
     - hosts:
-        - retail-store.iemafzalhassan.in
+        - retail-store.santanu.info
       secretName: retail-store-tls
 
 # Application configuration
@@ -62,7 +62,7 @@ metrics:
 # Cert Manager Configuration
 certManager:
   createClusterIssuer: true
-  email: iemafzalhassan@gmail.com
+  email: santanuroul08345@gmail.com
   clusterIssuerName: "letsencrypt-prod"
   server: "https://acme-v02.api.letsencrypt.org/directory"
   privateKeySecretName: "letsencrypt-prod-key" 
