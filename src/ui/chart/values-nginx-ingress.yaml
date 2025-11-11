@@ -7,7 +7,7 @@ serviceAccount:
   create: true
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: "retail-store-ui-sa"  # Using a different name to avoid conflicts
+  name: "retail-store-ui-sa" # Using a different name to avoid conflicts
 
 service:
   type: ClusterIP
@@ -29,10 +29,10 @@ ingress:
     # Cert-manager annotations
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
   hosts:
-    - retail-store.iemafzalhassan.in
+    - retail-store.santanu.info
   tls:
     - hosts:
-        - retail-store.iemafzalhassan.in
+        - retail-store.santanu.info
       secretName: retail-store-tls
 
 # Application configuration
@@ -62,7 +62,7 @@ metrics:
 # Cert Manager Configuration
 certManager:
   createClusterIssuer: true
-  email: iemafzalhassan@gmail.com
+  email: santanuroul08345@gmail.com
   clusterIssuerName: "letsencrypt-prod"
   server: "https://acme-v02.api.letsencrypt.org/directory"
-  privateKeySecretName: "letsencrypt-prod-key" 
+  privateKeySecretName: "letsencrypt-prod-key"
